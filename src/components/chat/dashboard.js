@@ -36,7 +36,7 @@ const Dashboard = () => {
     <div class="col col-lg-3">
     <div id="plist" class="people-list">
                 <div class="input-group">
-                    <h2>Consersations</h2>
+                    <h2>Conversation</h2>
                 </div>
                 <ul class="list-unstyled chat-list mt-2 mb-0">
                     <li class="clearfix">

@@ -1,24 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Register from './components/Login/register';
+import Login from './components/Login/login';
+import Facebook from './components/fb/connect';
+import Delete from './components/fb/delete';
+import Dashboard from './components/chat/dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Register/>} />
+        <Route path="/signin" element={<Login/>} />
+        <Route path="/facebook" element={<Facebook/>} />
+        <Route path="/facebook/delete" element={<Delete/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
+      </Routes>
+    </Router>
+    {/* <Register /> */}
+    {/* <Login /> */}
+    {/* <Facebook /> */}
+    {/* <Delete /> */}
+    {/* <Dashboard /> */}
+    {/* <CardComponent /> */}
+    </>
   );
 }
 

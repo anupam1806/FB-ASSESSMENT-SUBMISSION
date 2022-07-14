@@ -1,0 +1,21 @@
+.flexbox{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.right{
+    position: absolute;
+    right: 20px;
+}
+.left{
+    left: 50px;
+}
+.middle{
+    width: 50%;
+}
+h3{
+    text-align: center;
+    margin-left: 0;
+}
+h5{
+    width: max-content;
+}

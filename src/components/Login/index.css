@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #291490 !important;
+    height: 100vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 520px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 50px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+  .text-info{
+      padding-left: 6px;
+      color: #000000 !important;
+  }
+  .btn{
+      width: 100%;
+      margin-left:0%;
+      margin-top: 5%;
+      background-color: #291490;
+  }
+  .down{
+      margin-bottom: -2%;
+      padding-top: 20px;
+      position: fixed;
+      bottom: 150px;
+      margin-left: 6%;
+  }
+  .info{
+      padding-left: 2px;
+  }
+  .delete{
+    background-color: #ff0000;
+  }
+  .delete:hover{
+    background-color: #f56a6a;
+  }
+
+  .kep-login-facebook.metro{
+    border-radius: 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 50%;
+}
